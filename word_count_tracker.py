@@ -1,9 +1,6 @@
 import docx2txt, subprocess, time
 
-
 MY_DOCX = input("Enter the full URL to your .docx here: ")
-
-
 
 def wordcount():	
 	# Getting the docx document
