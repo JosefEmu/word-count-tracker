@@ -3,7 +3,7 @@ You have an .docx to write and want to keep track of your word count against you
 
 It's a simple tool that copies tet from .docx to .txt and further counts the number of your words you've written so far.
 
-** Commandline
+<h3> Commandline </h3>
 
 ```bash
 pip install docx2txt
@@ -11,7 +11,7 @@ pip install docx2txt
 cd word_count_tracker
 ```
 
-** In Python
+<h3> In Python </h3>
 
 ```python
 import word_count_tracker as wct
