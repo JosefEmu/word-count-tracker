@@ -5,7 +5,7 @@ MY_DOCX = input("Enter the full URL to your .docx here: ")
 
 
 
-def wordcount(MY_DOCX):	
+def wordcount():	
 	# Getting the docx document
 	MY_DOCX = docx2txt.process()
 
