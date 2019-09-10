@@ -17,7 +17,7 @@ cd word_count_tracker
 import word_count_tracker as wct
 ```
 
-Input the .docx URL as prompted and run the "run_it" method..
+Run the "run_it" method and input the full URL for your .docx file when prompted...
 
 ```python
 wct.run_it()
