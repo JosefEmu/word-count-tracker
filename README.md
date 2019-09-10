@@ -17,6 +17,11 @@ cd word_count_tracker
 import word_count_tracker as wct
 ```
 
+_You can also change the timer from the default 300secs intervals as you wish:_
+```python
+wct.TIMER = 1 #Input seconds as integers
+```
+
 Run the "run_it" method and input the full URL for your .docx file when prompted...
 
 ```python
