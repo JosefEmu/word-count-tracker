@@ -2,7 +2,7 @@ import docx2txt, subprocess, time
 
 # Getting the docx document
 MY_TEXT = docx2txt.process(input("Enter the full URL to your .docx here: "))
-
+TIMER = 300
 def wordcount():	
 	#copying text from .docx to .txt file 
 	with open("output_file.txt", "w") as f:
@@ -22,7 +22,6 @@ def wordcount():
 def run_it():
 	while True:
 		wordcount()
-		n= 300
-		time.sleep(n)
+		time.sleep(TIMER)
 		subprocess.call("cls", shell=True)
 		subprocess.call("exit", shell=True)
