@@ -1,10 +1,9 @@
 import docx2txt, subprocess, time
 
+# Getting the docx document
+MY_TEXT = docx2txt.process(input("Enter the full URL to your .docx here: "))
 
 def wordcount():	
-	# Getting the docx document
-	MY_TEXT = docx2txt.process(input("Enter the full URL to your .docx here: "))
-
 	#copying text from .docx to .txt file 
 	with open("output_file.txt", "w") as f:
 	    print(MY_TEXT, file=f)
