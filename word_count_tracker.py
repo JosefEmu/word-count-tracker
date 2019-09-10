@@ -22,6 +22,7 @@ def wordcount():
 def run_it():
 	while True:
 		wordcount()
-		time.sleep(300)
+		n= 300
+		time.sleep(n)
 		subprocess.call("cls", shell=True)
 		subprocess.call("exit", shell=True)
